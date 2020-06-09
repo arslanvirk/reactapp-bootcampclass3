@@ -34,4 +34,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run surge
-      run: surge ./build BootCampReactMyApp.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build BootCampClass3ReactMyApp.surge.sh --token ${{ secrets.SURGE_TOKEN }}
